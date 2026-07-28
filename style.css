@@ -139,18 +139,46 @@ footer{
     margin-left: 80px;
     margin-right: 80px;
 }
-
+#contact_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact{
     background-color: transparent;
     color:#FF9100;
-    border: #FF9100 1px solid;
+    border: #FF9100 1.5px solid;
     border-radius: 100%;
     width: fit-content;
     padding:15px;
     width: 25px;
     height: 25px;
     font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 10px 40px 10px;
+    cursor: pointer;
 }
+
+.contact:hover{
+    box-shadow:
+  rgba(255, 145, 0, 0.25) 0px 54px 55px,
+  rgba(255, 145, 0, 0.12) 0px -12px 30px,
+  rgba(255, 145, 0, 0.12) 0px 4px 6px,
+  rgba(255, 145, 0, 0.17) 0px 12px 13px,
+  rgba(255, 145, 0, 0.09) 0px -3px 5px;
+  color: #303030;
+  background-color: #FF9100;
+}
+
 i{
     border-radius: 100%;
+}
+i:hover{
+    color: #303030;
+}
+a{
+    text-decoration: none;
+    color: #FF9100;
 }
