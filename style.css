@@ -1,0 +1,156 @@
+body{
+    background-color: #303030;
+    color: #FF9100 ; 
+}
+html{
+    scroll-behavior: smooth;
+}
+:target {
+  scroll-margin-top: 80px;
+}
+nav{
+    background-color: #FF9100;
+    color: #303030;
+    padding: 20px 8px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;   
+}
+#nav_items{
+    padding-left: 10px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_sections{
+    color: #303030;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+.nav_sections:hover{
+    color: #303030;
+    text-decoration: none;
+    font-size: 22px; 
+}
+#name{
+    margin-top: 75px;
+}
+
+#skills_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+.skill{
+    margin: 15px 30px 50px 30px;
+    border: 2px solid white;
+    border-radius: 7px;
+    text-align: center ;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:min-content;
+    height: 250px;
+}
+.skill:hover{
+    box-shadow: rgba(255, 145, 0, 0.797) 0px 7px 29px 0px;
+    background-color: #FF9100;
+    color: white;
+    border: #FF9100 2px solid;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 15px 15px 10px 10px;
+    background-color: #FF9100;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: #FF9100;
+}
+
+h1{
+    text-align: center;
+}
+#project_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+.project{
+    color: #FF9100;
+    padding: 19px 10px 7px 10px;
+    margin: 5px 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: unwrap;
+    align-items:center ;
+    justify-content: space-around;
+    width: 370px;
+    gap: 20px;
+    border: 2px white solid;
+    cursor: pointer;
+    height: 210px;
+}
+.project:hover{
+    box-shadow: rgba(255, 145, 0, 0.797) 0px 7px 29px 0px;
+    border: #FF9100 2px solid;
+    background-color: #FF9100;
+    color: white;
+
+}
+
+footer{
+    background-color: #FF9100;
+    margin: 5px -8px -8px -8px ;
+    color: #303030;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding:7px 7px 14px 7px;
+}
+
+.intern{
+    width: 250px;
+    height: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contact{
+    background-color: transparent;
+    color:#FF9100;
+    border: #FF9100 1px solid;
+    border-radius: 100%;
+    width: fit-content;
+    padding:15px;
+    width: 25px;
+    height: 25px;
+    font-size: larger;
+}
+i{
+    border-radius: 100%;
+}
